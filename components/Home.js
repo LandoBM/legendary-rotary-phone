@@ -5,7 +5,7 @@ export default class Home extends Component {
   render() {
     return (
       <View>
-        <Text> Home Area </Text>
+        <Text> Hello </Text>
       </View>
     )
   }
