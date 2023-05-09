@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import { Text, StyleSheet, View, Image } from 'react-native'
+import { Text, StyleSheet, View, Image, ImageBackground} from 'react-native'
 import { NavigationBar} from 'react-native-navbar'
 // import { LinearGradient } from 'expo-linear-gradient'
+
 
 export default class Header extends Component {
   render() {
     return (
       <View style={styles.header}>
-        {/* <Text style={styles.text}>Disney</Text> */}
         <Image style={styles.logo} source = {require ('../images/disLogo.png')} />
       </View>
     )
@@ -16,8 +16,7 @@ export default class Header extends Component {
 
 const styles = StyleSheet.create({
     header: {
-        backgroundColor: '#090b30',
-        height: '10%',
+        height: '100%',
         color:'white',
     },
 
